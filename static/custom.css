@@ -1,0 +1,47 @@
+/* Custom colour overrides for the tabi theme.
+   Loaded after main.css via `stylesheets = ["custom.css"]` in config.toml [extra].
+   Change the hex values below; check contrast at https://webaim.org/resources/contrastchecker/ */
+
+/* ---- Light theme ---- */
+:root {
+    --background-color: #faf6f0;      /* warm cream page background */
+    --bg-0: #f0eae1;                  /* secondary surfaces (cards, hover) */
+    --bg-1: #e5ddd1;                  /* darker surfaces */
+    --bg-2: #fffdf9;                  /* code blocks, quotes */
+    --divider-color: #d8cfc2;
+
+    --text-color: #3b3226;            /* main body text */
+    --text-color-high-contrast: #2a231a;
+    --meta-color: #7a6f5f;            /* dates, tags, metadata */
+}
+
+/* ---- Dark theme (explicit toggle) ---- */
+[data-theme='dark'] {
+    --background-color:  #25062a;
+    --bg-0: #262220;
+    --bg-1: #332e2a;
+    --bg-2: #131110;
+    --divider-color: #3d3833;
+
+    --text-color: #f7e9f9;
+    --text-color-high-contrast: #f3eee6;
+    --meta-color: #a89d8f;
+    --primary-color: #e575f8;
+}
+
+/* ---- Dark theme (following OS preference, no explicit toggle) ----
+   Needed because the theme applies dark via a media query with higher
+   specificity than the plain :root block above. */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+        --background-color: #1a1714;
+        --bg-0: #262220;
+        --bg-1: #332e2a;
+        --bg-2: #131110;
+        --divider-color: #3d3833;
+
+        --text-color: #e3dcd2;
+        --text-color-high-contrast: #f3eee6;
+        --meta-color: #a89d8f;
+    }
+}
