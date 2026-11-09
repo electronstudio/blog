@@ -1,15 +1,15 @@
 ---
+title: "AppleTV has no option to disable IPv6..."
 layout: post
 microblog: true
 guid: http://rts.micro.blog/2025/12/04/appletv-has-no-option-to.html
 post_id: 5660912
 custom_summary: false
-summary: ""
-date: 2025-12-04T05:12:52-0000
-lastmod: 2025-12-04T05:13:03-0000
+description: ""
+date: 2025-12-04T05:12:52Z
+lastmod: 2025-12-04T05:13:03Z
 type: post
 thumbnail: https://s3.amazonaws.com/micro.blog/thumbnails/2025/12/04/tolhurst.org/7d349ba02b49ca5490c6a1ea9abe3cc3.png
-url: "/2025/12/04/appletv-has-no-option-to.html"
 mastodon:
   id: "115659583034248055"
   username: "tolhurst"
@@ -21,5 +21,7 @@ bluesky:
   handle: "tolhurst.org"
   hostname: "bsky.social"
   did: "did:plc:xs3efpengqy2qyuhpy3lpdhm"
+taxonomies:
+  tags: ["microblog"]
 ---
 AppleTV has no option to disable IPv6. It has the usual options to configure IPv4 addresses, but nothing for 6. Why does it matter? Because if the thing gets allocated a v6 address by the router it uses so much CPU that it can’t decide h265 video in real-time anymore.

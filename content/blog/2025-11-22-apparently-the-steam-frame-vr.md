@@ -1,15 +1,15 @@
 ---
+title: "Apparently the Steam Frame VR headset will have perfect x86 emulation on ARM..."
 layout: post
 microblog: true
 guid: http://rts.micro.blog/2025/11/22/apparently-the-steam-frame-vr.html
 post_id: 5648682
 custom_summary: false
-summary: ""
-date: 2025-11-22T17:48:28-0000
-lastmod: 2025-12-04T05:13:03-0000
+description: ""
+date: 2025-11-22T17:48:28Z
+lastmod: 2025-12-04T05:13:03Z
 type: post
 thumbnail: https://s3.amazonaws.com/micro.blog/thumbnails/2025/12/04/tolhurst.org/ea370a89df28ba013d803e30f8db57ff.png
-url: "/2025/11/22/apparently-the-steam-frame-vr.html"
 mastodon:
   id: "115594606566741138"
   username: "tolhurst"
@@ -21,5 +21,7 @@ bluesky:
   handle: "tolhurst.org"
   hostname: "bsky.social"
   did: "did:plc:xs3efpengqy2qyuhpy3lpdhm"
+taxonomies:
+  tags: ["microblog"]
 ---
 Apparently the Steam Frame VR headset will have perfect x86 emulation on ARM. That’s cool; it means the next Steam Deck could be ARM and so be cheaper/faster/lighter. But what about if a dev wants to avoid the emulation, can they ship native binaries? [www.igalia.com/2025/11/h...](https://www.igalia.com/2025/11/helpingvalve.html)
