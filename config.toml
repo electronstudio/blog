@@ -309,8 +309,9 @@ allowed_domains = [
     { directive = "media-src", domains = ["'self'"] },
     { directive = "script-src", domains = ["'self'"] },
     { directive = "style-src", domains = ["'self'"] },
-    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube.com", "https://www.youtube-nocookie.com", "https://giphy.com"] },
 ]
+
 
 # Enable the CSP directives configured (or default).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
