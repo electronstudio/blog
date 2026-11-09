@@ -1,7 +1,7 @@
 +++
 title = "Hello, World!"
-date = "2093-02-16"
-description = "My first post using the tabi theme."
+date = "2026-11-16"
+description = "Testing new blog"
 
 [taxonomies]
 tags = ["demo"]
