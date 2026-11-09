@@ -1,6 +1,6 @@
 base_url = "https://electronstudio.co.uk"
 title = "Richard Smith"
-description = "YOUR_SITE_DESCRIPTION"
+description = "Richard Smith"
 author = "Richard Smith"
 theme = "tabi"
 generate_feeds = true
