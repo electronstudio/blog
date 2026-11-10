@@ -34,14 +34,15 @@
    specificity than the plain :root block above. */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme='light']) {
-        --background-color: #1a1714;
+        --background-color:  #25062a;
         --bg-0: #262220;
         --bg-1: #332e2a;
         --bg-2: #131110;
         --divider-color: #3d3833;
 
-        --text-color: #e3dcd2;
+        --text-color: #f7e9f9;
         --text-color-high-contrast: #f3eee6;
         --meta-color: #a89d8f;
+        --primary-color: #e575f8;
     }
 }
